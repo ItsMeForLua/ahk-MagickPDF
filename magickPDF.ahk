@@ -6,7 +6,7 @@ global CapX := 0, CapY := 0, CapW := 0, CapH := 0
 global SnapCount := 0
 
 ; Main GUI
-MainGui := Gui("AlwaysOnTop", "PDF Assembly Line")
+MainGui := Gui("AlwaysOnTop", "magickPDF")
 MainGui.SetFont("s10", "Segoe UI")
 
 MainGui.Add("Text", "w300", "1. Select where to save the images/PDF:")
